@@ -1,0 +1,58 @@
+/* style.css */
+
+/* Applying background color and styling the body */
+body {
+  background-color: #f0f8ff; /* Light blue background */
+  font-family: "Arial", sans-serif; /* Changing font for the body */
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling the header (ID Selector) */
+#main-header {
+  text-align: center;
+  color: #2c3e50; /* Dark blue color */
+  margin-top: 20px;
+  font-size: 36px;
+}
+
+/* Styling a class (Class Selector) for paragraphs */
+.paragraph-style {
+  font-size: 18px;
+  color: #34495e; /* Dark grey text color */
+  line-height: 1.6;
+  padding: 10px 20px; /* Adding padding to make text more readable */
+}
+
+/* Style for the image using class selector */
+.img-style {
+  display: block;
+  margin: 20px auto;
+  border: 5px solid purple; /* Adding a blue border around the image */
+  padding: 10px;
+  width: 50%; /* Making the image half the width of its container */
+  border-radius: 10px; /* Rounding the corners of the image */
+}
+
+.img {
+  border-radius: 5px;
+}
+
+/* Styling buttons (Class Selector) */
+.button {
+  background-color: purple; /* Blue background for the button */
+  color: white; /* White text */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Adding a pointer cursor on hover */
+  place-items: center;
+}
+
+.button:hover {
+  background-color: #1abc9c; /* Changing the color when hovered */
+}
+
+.btt {
+  text-align: center;
+}
